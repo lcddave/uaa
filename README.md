@@ -79,8 +79,7 @@ console).
 Then you can login as a resource server and retrieve the token
 details:
 
-    $ uaac target http://localhost:8080/uaa
-    $ uaac token decode [token-value-from-above]
+    $ uaac token decode
     
 You should see your username and the client id of the original
 token grant on stdout, e.g.
